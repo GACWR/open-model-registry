@@ -1,0 +1,13 @@
+{
+  "name": "titanic-rf",
+  "version": "1.0.0",
+  "description": "Random Forest classifier for Titanic survival prediction. Demonstrates tabular binary classification with feature engineering.",
+  "author": "openmodelstudio",
+  "framework": "sklearn",
+  "category": "classification",
+  "tags": ["tabular", "binary-classification", "random-forest", "beginner"],
+  "license": "MIT",
+  "files": ["model.py"],
+  "dependencies": ["scikit-learn>=1.3", "pandas>=2.0", "numpy>=1.24"],
+  "homepage": "https://github.com/GACWR/open-model-registry"
+}

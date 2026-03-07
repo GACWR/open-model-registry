@@ -1,0 +1,13 @@
+{
+  "name": "timeseries-arima",
+  "version": "1.0.0",
+  "description": "ARIMA model for univariate time series forecasting. Supports configurable (p,d,q) orders with automatic differencing.",
+  "author": "openmodelstudio",
+  "framework": "python",
+  "category": "time-series",
+  "tags": ["forecasting", "arima", "time-series", "intermediate"],
+  "license": "MIT",
+  "files": ["model.py"],
+  "dependencies": ["numpy>=1.24", "scipy>=1.10"],
+  "homepage": "https://github.com/GACWR/open-model-registry"
+}

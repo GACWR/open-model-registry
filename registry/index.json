@@ -1,0 +1,146 @@
+{
+  "version": 1,
+  "generated_at": "2026-03-07T13:11:10.306850+00:00",
+  "total_models": 5,
+  "models": [
+    {
+      "name": "iris-svm",
+      "version": "1.0.0",
+      "description": "Support Vector Machine classifier for the Iris flower dataset. A simple multi-class classification example with RBF kernel.",
+      "author": "openmodelstudio",
+      "framework": "sklearn",
+      "category": "classification",
+      "tags": [
+        "tabular",
+        "multi-class",
+        "svm",
+        "beginner"
+      ],
+      "license": "MIT",
+      "files": [
+        "model.py"
+      ],
+      "dependencies": [
+        "scikit-learn>=1.3",
+        "numpy>=1.24"
+      ],
+      "homepage": "https://github.com/GACWR/open-model-registry",
+      "_registry": {
+        "path": "models/iris-svm",
+        "raw_url_prefix": "https://raw.githubusercontent.com/GACWR/open-model-registry/main/models/iris-svm"
+      }
+    },
+    {
+      "name": "mnist-cnn",
+      "version": "1.0.0",
+      "description": "Convolutional Neural Network for MNIST digit classification. A classic deep learning starter model with Conv2d layers.",
+      "author": "openmodelstudio",
+      "framework": "pytorch",
+      "category": "computer-vision",
+      "tags": [
+        "image-classification",
+        "cnn",
+        "mnist",
+        "beginner",
+        "deep-learning"
+      ],
+      "license": "MIT",
+      "files": [
+        "model.py"
+      ],
+      "dependencies": [
+        "torch>=2.0",
+        "torchvision>=0.15",
+        "numpy>=1.24"
+      ],
+      "homepage": "https://github.com/GACWR/open-model-registry",
+      "_registry": {
+        "path": "models/mnist-cnn",
+        "raw_url_prefix": "https://raw.githubusercontent.com/GACWR/open-model-registry/main/models/mnist-cnn"
+      }
+    },
+    {
+      "name": "sentiment-lstm",
+      "version": "1.0.0",
+      "description": "Bidirectional LSTM for text sentiment analysis. Classifies text into positive/negative sentiment with attention-weighted pooling.",
+      "author": "openmodelstudio",
+      "framework": "pytorch",
+      "category": "nlp",
+      "tags": [
+        "text-classification",
+        "sentiment",
+        "lstm",
+        "nlp",
+        "intermediate"
+      ],
+      "license": "MIT",
+      "files": [
+        "model.py"
+      ],
+      "dependencies": [
+        "torch>=2.0",
+        "numpy>=1.24"
+      ],
+      "homepage": "https://github.com/GACWR/open-model-registry",
+      "_registry": {
+        "path": "models/sentiment-lstm",
+        "raw_url_prefix": "https://raw.githubusercontent.com/GACWR/open-model-registry/main/models/sentiment-lstm"
+      }
+    },
+    {
+      "name": "timeseries-arima",
+      "version": "1.0.0",
+      "description": "ARIMA model for univariate time series forecasting. Supports configurable (p,d,q) orders with automatic differencing.",
+      "author": "openmodelstudio",
+      "framework": "python",
+      "category": "time-series",
+      "tags": [
+        "forecasting",
+        "arima",
+        "time-series",
+        "intermediate"
+      ],
+      "license": "MIT",
+      "files": [
+        "model.py"
+      ],
+      "dependencies": [
+        "numpy>=1.24",
+        "scipy>=1.10"
+      ],
+      "homepage": "https://github.com/GACWR/open-model-registry",
+      "_registry": {
+        "path": "models/timeseries-arima",
+        "raw_url_prefix": "https://raw.githubusercontent.com/GACWR/open-model-registry/main/models/timeseries-arima"
+      }
+    },
+    {
+      "name": "titanic-rf",
+      "version": "1.0.0",
+      "description": "Random Forest classifier for Titanic survival prediction. Demonstrates tabular binary classification with feature engineering.",
+      "author": "openmodelstudio",
+      "framework": "sklearn",
+      "category": "classification",
+      "tags": [
+        "tabular",
+        "binary-classification",
+        "random-forest",
+        "beginner"
+      ],
+      "license": "MIT",
+      "files": [
+        "model.py"
+      ],
+      "dependencies": [
+        "scikit-learn>=1.3",
+        "pandas>=2.0",
+        "numpy>=1.24"
+      ],
+      "homepage": "https://github.com/GACWR/open-model-registry",
+      "_registry": {
+        "path": "models/titanic-rf",
+        "raw_url_prefix": "https://raw.githubusercontent.com/GACWR/open-model-registry/main/models/titanic-rf"
+      }
+    }
+  ]
+}

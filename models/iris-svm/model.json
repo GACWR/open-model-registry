@@ -1,0 +1,13 @@
+{
+  "name": "iris-svm",
+  "version": "1.0.0",
+  "description": "Support Vector Machine classifier for the Iris flower dataset. A simple multi-class classification example with RBF kernel.",
+  "author": "openmodelstudio",
+  "framework": "sklearn",
+  "category": "classification",
+  "tags": ["tabular", "multi-class", "svm", "beginner"],
+  "license": "MIT",
+  "files": ["model.py"],
+  "dependencies": ["scikit-learn>=1.3", "numpy>=1.24"],
+  "homepage": "https://github.com/GACWR/open-model-registry"
+}

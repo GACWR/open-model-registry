@@ -1,0 +1,13 @@
+{
+  "name": "sentiment-lstm",
+  "version": "1.0.0",
+  "description": "Bidirectional LSTM for text sentiment analysis. Classifies text into positive/negative sentiment with attention-weighted pooling.",
+  "author": "openmodelstudio",
+  "framework": "pytorch",
+  "category": "nlp",
+  "tags": ["text-classification", "sentiment", "lstm", "nlp", "intermediate"],
+  "license": "MIT",
+  "files": ["model.py"],
+  "dependencies": ["torch>=2.0", "numpy>=1.24"],
+  "homepage": "https://github.com/GACWR/open-model-registry"
+}

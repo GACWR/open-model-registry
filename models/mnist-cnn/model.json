@@ -1,0 +1,13 @@
+{
+  "name": "mnist-cnn",
+  "version": "1.0.0",
+  "description": "Convolutional Neural Network for MNIST digit classification. A classic deep learning starter model with Conv2d layers.",
+  "author": "openmodelstudio",
+  "framework": "pytorch",
+  "category": "computer-vision",
+  "tags": ["image-classification", "cnn", "mnist", "beginner", "deep-learning"],
+  "license": "MIT",
+  "files": ["model.py"],
+  "dependencies": ["torch>=2.0", "torchvision>=0.15", "numpy>=1.24"],
+  "homepage": "https://github.com/GACWR/open-model-registry"
+}
