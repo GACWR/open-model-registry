@@ -21,7 +21,7 @@ openmodelstudio search "image classification"
 openmodelstudio list
 ```
 
-Or from a notebook:
+Or from a notebook / Python script:
 
 ```python
 import openmodelstudio as oms
@@ -31,6 +31,11 @@ oms.registry_install("titanic-rf")
 
 # Search the registry
 results = oms.registry_search("classification")
+
+# Load an installed model and train it
+model = oms.use_model("titanic-rf")
+handle = oms.register_model("my-titanic", model=model)
+job = oms.start_training(handle.model_id, wait=True)
 ```
 
 ## Submitting a Model
